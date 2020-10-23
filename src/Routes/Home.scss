@@ -1,0 +1,11 @@
+body {
+  background-image: url("IMG_5323.jpg");
+  background-position: right top;
+  background-attachment: fixed;
+  img {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-content: right;
+  }
+}
