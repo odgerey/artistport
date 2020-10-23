@@ -1,13 +1,10 @@
 import React from 'react';
-import './SideDrawer.css';
+import './SideDrawer.scss';
 const sideDrawer = props => (
   <nav className="sideDrawer">
     <ul>
-      <li>
-        <a href="/">Products</a>
-        <a href="/">Products</a>
-
-      </li>
+       <li><a href="/">Biography</a></li>
+       <li> <a href="/">Career overview</a></li>
     </ul>
   </nav>
 )
