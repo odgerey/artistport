@@ -1,0 +1,24 @@
+.toolbar {
+  position: fixed;
+  top: 0;
+  left:0;
+  width: 100%;
+  background:white;
+  height:100px;
+}
+
+.toolbar_navigation {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  padding: 0 1rem
+}
+
+.toolbar_logo .photo {
+  height: 100px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+}

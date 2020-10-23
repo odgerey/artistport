@@ -1,7 +1,8 @@
 body {
   background-image: url("IMG_5323.jpg");
   background-position: right top;
-  background-attachment: fixed;
+  background-attachment: scroll;
+  
   img {
     display: flex;
     flex-direction: row;
