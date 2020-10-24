@@ -38,7 +38,7 @@ class App extends Component {
       <SideDrawer show={this.state.sideDrawerOpen}/>
       {backdrop}
 
-      <Routes/>
+     <Routes/>
       <main style={{marginTop: '64px'}}>
         <p>This is content.</p>
       </main>
