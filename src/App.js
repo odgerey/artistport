@@ -4,6 +4,7 @@ import Routes from './Routes/Routes.js';
 import Toolbar from './Components/Toolbar/Toolbar';
 import SideDrawer from './Components/SideDrawer/SideDrawer';
 import Backdrop from './Components/Backdrop/Backdrop';
+import BottomNavigation from './Components/BottomNavigation/BottomNav';
 
 
 
@@ -37,11 +38,14 @@ class App extends Component {
       <Toolbar drawerClickHandler={this.drawerToggleClickHandler}/>
       <SideDrawer show={this.state.sideDrawerOpen}/>
       {backdrop}
+     
 
      <Routes/>
+   
       <main style={{marginTop: '64px'}}>
         <p>This is content.</p>
       </main>
+      <BottomNavigation/>
     </div>
     )
   }
